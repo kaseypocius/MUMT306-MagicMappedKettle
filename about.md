@@ -5,6 +5,9 @@ Throughout my studies I have had the pleasure of studying with <a href="github.c
 
 <h4> Some other artistic inspirations </h4>
  <a href="https://wwkacertification.blogspot.com/"> Women With Kitchen Appliances</a><br>
-Sound Design inspirations
+<h6> Sound Design inspirations (for the mappings included in the example reaper project)</h6>
+<a href=""> Barry Truax - Islands</a><br>
+<a href="https://micahfrank.bandcamp.com/album/all-the-roads-2"> Larum - All the Roads</a><br>
+
 
  <a href=""> Read</a>
