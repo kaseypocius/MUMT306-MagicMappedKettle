@@ -1,6 +1,6 @@
-layout: page
+<!---layout: page
 title: "How?"
-permalink: /how/
+permalink: /how/--->
 
 <h1> How? </h1>
 My Example project uses two sets of sensors, <a href="https://jezrileyfrench.co.uk/hydrophones.php"> a Jez Riley french D-Series Hydrophone </a> and a <a href="https://abra-electronics.com/sensors/sensors-temperature-en/dht22-temperature-humidity-sensor.html"> DHT22 Humidity & Temperature Sensor </a> connected to Max via an Arduino Uno. In Max the data is converted to OSC, which I use to send to data to Reaper.
