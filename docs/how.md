@@ -39,6 +39,11 @@ I then mounted the DHT22 in the beak of the kettle, and soldered a 10k resistor 
 A better way to hide all the cabling would be ideal,  but I couldn't find a good way to mount sensors in the base and still measure humidity.
 <br>
 <h2>Max Patch</h2>
+<br>
+<br>
+My Example patch is configured to my most common use case of OSC data, control for VSTs in Cockos' Reaper, with some additional FFT processing of the hydrophone done in Max. To accommodate Reaper's implementation of OSC control in soft takeover mode, this patch generates some calibration ramps before calibrating the sensor values, to ensure all the parameters being controlled in Reaper have been grabbed before the sensor data is sent. This example kettle patch using slightly different OSC routing than the other template patches, for personal preference of how I find mappings more readable.
+
+The "calibration" simply samples the sensor values to use as a reference point against any new data received going forward, and creates a scaled float from 0. - 1. in reference between the sampled value and a user defined ceiling. In the DHT11 code, this is 50 degrees Centigrade & 80% Humidity, which is the read maximum of the sensor itself. The DHT22 code uses 100 degrees Centigrade & 99% Humidity, which is my common highest value temperature value, within sensor margin of 2%, that I found with the kettle, and the max read of the humidity sensor. I have yet to find a use case where I need to accommodate values between 100 & 125 degrees, but the code can be easily changed to support these values. An if loop is used to recalibrate the sensor scaling if a new minimum temperature is detected making this code unsuitable for use cases requiring mappings of decreases in temperature & humidity over time, but changing to this behavior would be relatively easy.
 
 <h2> For the Future</h2>
 
