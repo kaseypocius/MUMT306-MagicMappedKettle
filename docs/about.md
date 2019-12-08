@@ -1,3 +1,6 @@
+layout: page
+title: "About"
+permalink: /about/
 <h1> MagicMappedKettle </h1>
 Lorem Ipsum
 
