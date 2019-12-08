@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 59.0, 104.0, 1182.0, 662.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -1326,8 +1326,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 522.392836272716522, 629.595237851142883, 91.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 395.5, 309.0, 84.0, 42.0 ],
+					"presentation_rect" : [ 395.5, 309.0, 130.0, 24.0 ],
 					"text" : "Temp Saturation",
 					"textcolor" : [ 0.952941176470588, 0.564705882352941, 0.098039215686275, 1.0 ]
 				}
@@ -2023,7 +2022,8 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 	}
 
 }
