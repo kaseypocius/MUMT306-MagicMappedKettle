@@ -14,7 +14,7 @@ I've created some utility functions to help get more "expressive" data in regard
 
 The OSC mapping used in the Max patch system is also general enough that a sensor change should only need you to change the arduino code.
 
-<h2>Why did you decide on these sensors?<h2>
-I wanted to have sensors that would be easily mountable inside of the kettle, could be exposed to high temperature & humidity values, and were relatively cheap & easy to find. I settled on the DHT22 <a href="https://forum.arduino.cc/index.php?topic=432544.0"> though I </a> <a href="https://www.letscontrolit.com/forum/viewtopic.php?t=1582"> find ample </a> <a href="https://www.reddit.com/r/arduino/comments/9ftsg7/dht22_strange_humidity_numbers/"> evidence online </a> that these DHT sensors are generally unreliable and in accurate, I seem to have lucked out here. Your mileage may vary. 
+<h2>Why did you decide on these sensors?</h2>
+I wanted to have sensors that would be easily mountable inside of the kettle, could be exposed to high temperature & humidity values, and were relatively cheap & easy to find. I settled on the DHT22 <a href="https://forum.arduino.cc/index.php?topic=432544.0"> though I </a> <a href="https://www.letscontrolit.com/forum/viewtopic.php?t=1582"> find ample </a> <a href="https://www.reddit.com/r/arduino/comments/9ftsg7/dht22_strange_humidity_numbers/"> evidence online </a> that these DHT sensors are generally unreliable and in accurate, I seem to have lucked out here. Your mileage may vary.
 
  <a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/about"> Back to the About</a>
