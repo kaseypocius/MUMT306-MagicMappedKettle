@@ -19,6 +19,8 @@ I wanted to have sensors that would be easily mountable inside of the kettle, co
 
 The Hydrophone acts as my way to capture audio from the Kettle, and allows the kettle to act as a amplified percussive instrument of sorts. I've personally used the amplitude envelope of the hydrophone to control the partial gate of a FFT vocoder, which allows me to play with the partial content of my synthesized signal through percussive strikes as well as boiling the kettle, independent of the DHT sensor readings.
 
+Originally, I had conceived of this project using many more sensors than the final version ended up with. Aside from previously mentioned sensor incompatibilities with the task at hand, I found adding more Thermistors didn't give me any new variances in data, and to an audience member unaware of the inner workings of the sensors, I felt I had enough data already with the DHT & Hydrophone combo, as many of the perceived phenomenon of boiling water (ie increase in water turbulence, presence of steam) could be determined simply by temperature & humidity data regardless, or at least estimated from the data.
+
 <h2>Mount Job & Circuit Build </h2>
 <br>
 <img src="bottom_Heatshrink.jpg" alt="Heatshrink On the Individual Pins">
@@ -34,6 +36,11 @@ I then mounted the DHT22 in the beak of the kettle, and soldered a 10k resistor 
 
 <br>
 A better way to hide all the cabling would be ideal,  but I couldn't find a good way to mount sensors in the base and still measure humidity.
+<br>
+<h2>Max Patch</h2>
 
+<h2> For the Future</h2>
+
+The Arduino could be replaced by a wireless model, and a network enabled model with the <a href="https://github.com/CNMAT/OSC">CNMAT OSC Library </a> would allow for all the OSC formatting to be done on the Arduino itself, removing the need for the max patch. More robust sensors may be needed, but as stated previously, I seem to have lucked out with my own sensors.
 
  <a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/about"> Back to the About</a>
