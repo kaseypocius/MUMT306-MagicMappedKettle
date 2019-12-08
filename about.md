@@ -2,8 +2,8 @@
 Lorem Ipsum
 
 <h2> Read More About </h2>
-<a href=""> Why?</a>
-<a href=""> How?</a>
-<a href=""> Demos</a>
-<a href=""> Thanks</a>
-<a href=""> Tutorial on Seting up the Example Patches</a>
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/why"> Why?</a>
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/how"> How?</a>
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/demos"> Demos</a>
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/thanks"> Thanks</a>
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/tutorial"> Tutorial on Setting up the Example Patches</a>
