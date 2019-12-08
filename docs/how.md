@@ -48,6 +48,8 @@ The "calibration" simply samples the sensor values to use as a reference point a
 <h4>Humidity Panic </h4>
 The humidity sensitive pad used to calculate humidity in the DHT sensors do get wet from time to time, and getting them dry is hard due to the protective housing of the DHT sensors. This can also cause an unpleasant spike in a performance, so an override switch is provided to allow the user to remap all humidity based mappings to the much more reliable temperature values. This could also help with the longevity of these projects, as <a href="https://www.letscontrolit.com/forum/viewtopic.php?t=5707"> some reports online show these humidity sensors are prone to getting dirty and becoming dysfunctional,</a> though I have personally yet to experience a use case where I needed to use the Humidity Panic outside of a wet sensor.
 
+<a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/why"> An artistic explanation of the example mappings can be found in the why page. </a>
+
 <h2> For the Future</h2>
 
 The Arduino could be replaced by a wireless model, and a network enabled model with the <a href="https://github.com/CNMAT/OSC">CNMAT OSC Library </a> would allow for all the OSC formatting to be done on the Arduino itself, removing the need for the max patch. More robust sensors may be needed, but as stated previously, I seem to have lucked out with my own sensors.
