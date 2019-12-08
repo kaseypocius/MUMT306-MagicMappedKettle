@@ -25,6 +25,7 @@ Originally, I had conceived of this project using many more sensors than the fin
 <br>
 <img src="bottom_Heatshrink.jpg" alt="Heatshrink On the Individual Pins">
 <br>
+<br>
 I heat shrunk some temperature resistant wiring to the data, power & ground pins of the DHT22, and then covered those with another layer of shrink wrap to help water seal the cable connections. It's not the cleanest job, but it seems to work more than well enough.
 <br>
 
