@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/--->
 
 <h1> MagicMappedKettle </h1>
-Lorem Ipsum
+Mappings for DHT11 & DHT22 sensors to control digital processing of boiling water. Completed in part as a final project for MUMT306 at McGill. Makes use of an Arduino for transfer of sensor data into MaxMSP, for further routing and use in audio synthesis. This github also includes some basic patches to get you started on mapping DHT sensor data to OSC messages.
 
 <img src="Mounting/Kettle_AllwiredUp.jpg" alt="Kettle">
 

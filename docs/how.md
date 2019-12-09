@@ -61,6 +61,6 @@ The humidity sensitive pad used to calculate humidity in the DHT sensors do get 
 
 <h2> For the Future</h2>
 
-The Arduino could be replaced by a wireless model, and a network enabled model with the <a href="https://github.com/CNMAT/OSC">CNMAT OSC Library </a> would allow for all the OSC formatting to be done on the Arduino itself, removing the need for the max patch. More robust sensors may be needed, but as stated previously, I seem to have lucked out with my own sensors.
+The Arduino could be replaced by a wireless model, and a network enabled model with the <a href="https://github.com/CNMAT/OSC">CNMAT OSC Library </a> would allow for all the OSC formatting to be done on the Arduino itself, removing the need for the max patch. More robust sensors may be needed, but as stated previously, I seem to have lucked out with my own sensors. Further updates to the patches will include flags and triggers for certain states it detects in the water (ie rolling, coming out of boil, transients in the hydrophone), that would be available to the user for mapping, though as stated in the why page, I have yet to find a good musical implementation of these data sets. 
 
  <a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/about"> Back to the About</a>
