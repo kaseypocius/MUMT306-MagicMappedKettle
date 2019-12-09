@@ -32,7 +32,16 @@ I heat shrunk some temperature resistant wiring to the data, power & ground pins
 <br>
 I then mounted the DHT22 in the beak of the kettle, and soldered a 10k resistor between the data pin and ground pin on to a protoboard small enough to fit under the kettle comfortably, with my output wires running out to the Arduino. I was lucky enough that I could fit these extra sensor cables in the cable management slot in the kettle already, so this is relatively clean, all things considered.
 <br>
-
+<img src="Mounting/PuttingTheSensorInPlace.jpg" alt="Sensor in the Beak">
+<br>
+<img src="Mounting/TightFit.jpg" alt="Beak Closed">
+<br>
+<img src="Mounting/CableRun.jpg" alt="Cable Run">
+<br>
+<img src="Mounting/ProtoboardTop.jpg" alt="Top of the Protoboard">
+<br>
+<img src="Mounting/ProtoBoardSolder.jpg" alt="Solder Side">
+<br>
 <img src="DHT22_FritzingDiagram.png" alt="DHT22 Circuit Diagram">  
 
 <br>
