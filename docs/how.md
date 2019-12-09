@@ -28,7 +28,7 @@ Originally, I had conceived of this project using many more sensors than the fin
 <br>
 I heat shrunk some temperature resistant wiring to the data, power & ground pins of the DHT22, and then covered those with another layer of shrink wrap to help water seal the cable connections. It's not the cleanest job, but it seems to work more than well enough.
 <br>
-
+<img src="Mounting/SecondaryHeatshrink.jpg" alt="Heatshirnk On the Wiring">
 <br>
 I then mounted the DHT22 in the beak of the kettle, and soldered a 10k resistor between the data pin and ground pin on to a protoboard small enough to fit under the kettle comfortably, with my output wires running out to the Arduino. I was lucky enough that I could fit these extra sensor cables in the cable management slot in the kettle already, so this is relatively clean, all things considered.
 <br>
