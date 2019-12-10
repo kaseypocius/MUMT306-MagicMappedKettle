@@ -4,8 +4,11 @@ permalink: /tutorial/--->
 
 <h2> You will need </h2>
 * A DHT sensor
+* <a href="https://www.arduino.cc/"> An Arduino & Associated Software </a>
 * <a href="https://github.com/adafruit/DHT-sensor-library"> The DHT sensor library from Adafruit </a>
-* At least one sound input on your computer, preferably a hydrophone, but any audio signal could work
+* At least one sound input on your computer, preferably a hydrophone placed inside of the kettle, but any audio signal could work
+* <a href="cycling74.com"> A copy of MaxMSP </a>
+* <a href="reaper.fm"> A copy of Reaper </a>
 
 <h2> For the Reaper Session </h2>
 * <a href="https://puremagnetik.com/collections/free-plugins/products/driftmaker-delay-disintegration-device"> Driftmaker from Puremagnetik (free) </a>
