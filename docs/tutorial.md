@@ -4,7 +4,7 @@ permalink: /tutorial/--->
 
 <h2> You will need </h2>
 * A DHT sensor
-* <a href="https://github.com/adafruit/DHT-sensor-library> The DHT sensor library from Adafruit </a>
+* <a href="https://github.com/adafruit/DHT-sensor-library"> The DHT sensor library from Adafruit </a>
 * At least one sound input on your computer, preferably a hydrophone, but any audio signal could work
 <h2> How To </h2>
 
