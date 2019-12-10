@@ -49,6 +49,7 @@ A better way to hide all the cabling would be ideal,  but I couldn't find a good
 <br>
 <h2>Max Patch</h2>
 <br>
+<img src="Mounting/MAXPAT.png" alt="MaxPatch">
 <br>
 My Example patch is configured to my most common use case of OSC data, control for VSTs in Cockos' Reaper, with some additional FFT processing of the hydrophone done in Max. To accommodate Reaper's implementation of OSC control in soft takeover mode, this patch generates some calibration ramps before calibrating the sensor values, to ensure all the parameters being controlled in Reaper have been grabbed before the sensor data is sent. This example kettle patch using slightly different OSC routing than the other template patches, for personal preference of how I find mappings more readable.
 
