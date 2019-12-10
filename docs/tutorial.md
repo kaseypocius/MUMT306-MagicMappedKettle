@@ -26,9 +26,7 @@ permalink: /tutorial/--->
 <img src="Mounting/ReaperOSCRoute.png" alt="Reaper Map">
 <br>
 5. If using with the example Reaper session, boot Reaper now, and ensure it has an OSC receive port enabled at port 7474.
-<br>
-<img src="Mounting/MAXPAT.png" alt="MaxPatch">
-<br>
+
 6. Hit calibrate. When the "done" trigger is orange you're ready to go! If you don't have a hydrophone, my example mappings will process your default mic input 1, which may feedback on itself if you are using your laptop's built in microphone.
 
  <a href="https://kaseypocius.github.io/MUMT306-MagicMappedKettle/about"> Back to the About</a>
