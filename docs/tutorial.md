@@ -6,6 +6,14 @@ permalink: /tutorial/--->
 * A DHT sensor
 * <a href="https://github.com/adafruit/DHT-sensor-library"> The DHT sensor library from Adafruit </a>
 * At least one sound input on your computer, preferably a hydrophone, but any audio signal could work
+
+<h2> For the Reaper Session </h2>
+* <a href="https://puremagnetik.com/collections/free-plugins/products/driftmaker-delay-disintegration-device"> Driftmaker from Puremagnetik (free) </a>
+* <a href="https://www.soundhack.com/freeware/"> ++pitchdelay & ++bubbler from Soundhack (free) </a>
+* <a href="https://www.soundhack.com/spectral-shapers/"> ++binaural (20$ USD, academic discount available on request)</a>
+* <a href="http://www.michaelnorris.info/software/soundmagic-spectral"> Super Filterbank from Micheal Norris' Soundmagic Spectral (free) </a>
+
+
 <h2> How To </h2>
 
 1. Configure your DHT sensor as instructed by retailer/manufacturer. 4 pin DHT sensors will require you set up a resistor, either between the data pin & ground or 5V power. 3 pin models do not. Mount the sensor into your kettle of choice.
